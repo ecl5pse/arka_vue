@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 61px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+  
+    background: #ffffff;
+    box-shadow: 0px 14px 44px rgba(84, 84, 84, 0.25);
+    border-radius: 0px;
+  }
+  .logo {
+    position: absolute;
+    height: 24px;
+    left: 1.67%;
+    right: 92.43%;
+    top: 19px;
+    border-radius: 0px;
+  }
+  
+  .menu {
+    margin-top: 19px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+  
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    min-width: 706px;
+    justify-content: space-evenly;
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    background-color: #f2ae4d;
+    min-height: 760px;
+    margin-top: 15px;
+  }
+  
+  .header_banner {
+    margin-top: -450px;
+    max-width: 480px;
+    line-height: 56.25px;
+    align-self: flex-start;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 120px;
+  
+  }
+  .header_banner_text {
+    align-self: flex-start;
+    padding-left: 120px;
+    line-height: 24px;
+    max-width: 277px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+.header_banner_btn{
+    font-family: "Roboto", sans-serif;
+    max-width: 228px;
+    margin-left: 120px;
+    min-height: 56px;
+    border-radius: 44px;
+    background: #3D5675;
+    color: white;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    font-style: normal;
+    border: 0;
+}
+
+.conteainer_header_image_banner{
+padding-top: 148px;
+ align-self: flex-end;
+ max-width: 504px;
+}
+.hdr_bannner_img{
+    width: 504px;
+    height: 504px;
+}
