@@ -54,10 +54,12 @@
         <li>Inspiration</li>
         <li>About</li>
         <li>Accout</li>
-      </div>
+     </div>
+
+
       <div class="banner">
         <div class="conteainer_header_image_banner">
-         <img src="./assets/header_banner.png" alt="none" class="hdr_bannner_img">
+          <img src="./assets/header_banner.png" alt="none" />
         </div>
         <h1 class="header_banner">
           Fast and easy custom boxes your customers will love
@@ -68,12 +70,84 @@
         </p>
         <button class="header_banner_btn">START YOUR DESIGN</button>
       </div>
-      
-    </div>
+      <div class="contaainer_certificate_banner">
+        <div class="certif_1">
+          <img src="./assets/cerfe_1.png" alt="none" class="cerfe_1_img" />
+          <p class="certif_1_text">Shopify Integrated</p>
+        </div>
+        <div class="certif_2">
+          <img src="./assets/cerfe_2.png" alt="none" />
+          <p>Amazon Certified</p>
+        </div>
+        <div class="certif_3">
+             <img src="./assets/cerfe_3.png" alt="none" />
+             <p>Eco-Friendly</p>
+        </div>
+      </div>
+      <div class="container_products_cs">
+        <div class="container_header_products_cs">
+          <h1 class="header_text_products_cs">Products you can customize</h1>
+          <button class="header_button_products_cs">Browse all products</button>
+        </div>
+      <div class="container_cards">
+        <div class="card_1">
+          <img src="./assets/rectangle.png" alt="none"/>
+          <h1 class="header_text_cards">Custom Carton Boxes</h1>
+          <p class="text_cards">Create a clean brand presentation with this custom carton box.</p>
+        </div>
+
+        <div class="card_2">
+          <img src="./assets/rectangle1.png" alt="none"/>
+          <h1 class="header_text_cards">Custom Boxes</h1>
+          <p class="text_cards">A stylish and strong corrugated cardboard box.</p>
+        </div>
+
+       <div class="card_3">
+          <img src="./assets/rectangle2.png" alt="none"/>
+          <h1 class="header_text_cards">Custom Carton Boxes</h1>
+          <p class="text_cards">Create a clean brand presentation with this custom carton box.</p>
+        </div>
+        
+         <div class="card_4">
+          <img src="./assets/rectangle2.png" alt="none"/>
+          <h1 class="header_text_cards">Custom Carton Boxes</h1>
+          <p class="text_cards">Create a clean brand presentation with this custom carton box.</p>
+        </div>
+
+         <div class="card_5">
+          <img src="./assets/rectangle2.png" alt="none"/>
+          <h1 class="header_text_cards">Custom Carton Boxes</h1>
+          <p class="text_cards">Create a clean brand presentation with this custom carton box.</p>
+         </div>
+
+          <div class="card_6">
+          <img src="./assets/rectangle2.png" alt="none"/>
+          <h1 class="header_text_cards">Custom Carton Boxes</h1>
+          <p class="text_cards">Create a clean brand presentation with this custom carton box.</p>
+        </div>
+       
+      </div>
+      </div> 
+
+    
+<div class="footer">
+  <div class="img_footer">
+    <img src="./assets/rectangle3.png" alt="none" /> 
   </div>
+  <h3 class="header_footer">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+  </h3>
+
+    <h3 class="header_footer">
+   +38000000000
+  </h3>
+ </div>  
+
+    </div>
+ </div>
 </template>
 
 
 <style>
-@import './styles/styles.scss';
+@import "./styles/styles.scss";
 </style>

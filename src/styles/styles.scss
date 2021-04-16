@@ -1,92 +1,265 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    height: 61px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
-  
-    background: #ffffff;
-    box-shadow: 0px 14px 44px rgba(84, 84, 84, 0.25);
-    border-radius: 0px;
-  }
-  .logo {
-    position: absolute;
-    height: 24px;
-    left: 1.67%;
-    right: 92.43%;
-    top: 19px;
-    border-radius: 0px;
-  }
-  
-  .menu {
-    margin-top: 19px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 1.96px;
-    text-transform: uppercase;
-  
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    min-width: 706px;
-    justify-content: space-evenly;
-  }
-  
-  .banner {
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-    background-color: #f2ae4d;
-    min-height: 760px;
-    margin-top: 15px;
-  }
-  
-  .header_banner {
-    margin-top: -450px;
-    max-width: 480px;
-    line-height: 56.25px;
-    align-self: flex-start;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    padding-left: 120px;
-  
-  }
-  .header_banner_text {
-    align-self: flex-start;
-    padding-left: 120px;
-    line-height: 24px;
-    max-width: 277px;
-    font-size: 15px;
-    font-weight: 400;
-  }
+  display       : flex;
+  flex-direction: column;
+  position      : absolute;
+  height        : 61px;
+  left          : 0%;
+  right         : 0%;
+  top           : 0px;
 
-.header_banner_btn{
-    font-family: "Roboto", sans-serif;
-    max-width: 228px;
-    margin-left: 120px;
-    min-height: 56px;
-    border-radius: 44px;
-    background: #3D5675;
-    color: white;
-    font-weight: 700;
-    line-height: 18px;
-    font-size: 14px;
-    font-style: normal;
-    border: 0;
+  background   : #ffffff;
+  box-shadow   : 0px 14px 44px rgba(84, 84, 84, 0.25);
+  border-radius: 0px;
 }
 
-.conteainer_header_image_banner{
-padding-top: 148px;
- align-self: flex-end;
- max-width: 504px;
+.logo {
+  position     : absolute;
+  height       : 24px;
+  left         : 1.67%;
+  right        : 92.43%;
+  top          : 19px;
+  border-radius: 0px;
 }
-.hdr_bannner_img{
-    width: 504px;
-    height: 504px;
+
+.menu {
+  margin-top    : 19px;
+  font-family   : "Roboto", sans-serif;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 14px;
+  line-height   : 18px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+
+  display        : flex;
+  flex-direction : row;
+  list-style-type: none;
+  min-width      : 706px;
+  justify-content: space-evenly;
+}
+
+.banner {
+  display         : flex;
+  flex-direction  : column;
+  font-family     : "Roboto", sans-serif;
+  background-color: #f2ae4d;
+  min-height      : 760px;
+  margin-top      : 15px;
+ 
+}
+
+.header_banner {
+  margin-top  : -450px;
+  max-width   : 480px;
+  line-height : 56.25px;
+  align-self  : flex-start;
+  font-size   : 48px;
+  font-style  : normal;
+  font-weight : 400;
+  padding-left: 120px;
+
+}
+
+.header_banner_text {
+  align-self  : flex-start;
+  padding-left: 120px;
+  line-height : 24px;
+  max-width   : 277px;
+  font-size   : 15px;
+  font-weight : 400;
+}
+
+.header_banner_btn {
+  font-family  : "Roboto", sans-serif;
+  max-width    : 228px;
+  margin-left  : 120px;
+  min-height   : 56px;
+  border-radius: 44px;
+  background   : #3D5675;
+  color        : white;
+  font-weight  : 700;
+  line-height  : 18px;
+  font-size    : 14px;
+  font-style   : normal;
+  border       : 0;
+}
+
+.conteainer_header_image_banner {
+  padding-top: 148px;
+  align-self : flex-end;
+  max-width  : 504px;
+}
+
+.hdr_bannner_img {
+  width : 504px;
+  height: 504px;
+}
+
+.contaainer_certificate_banner {
+  display       : flex;
+  flex-direction: row;
+  max-width     : 1440px;
+  max-height    : 120px;
+}
+
+.certif_1 {
+  padding-left  : 320px;
+  padding-top   : 20px;
+  display       : flex;
+  flex-direction: row;
+  max-width     : 223px;
+  font-family   : "Roboto", sans-serif;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 15px;
+  line-height   : 19px;
+
+
+  letter-spacing: 0.6px;
+
+}
+
+.cerfe_1_img {
+  width : 142px;
+  height: 50px;
+}
+
+.certif_1_text {
+  margin-top : -0.5px;
+  margin-left: 16px;
+}
+
+
+.certif_2 {
+  padding-top   : 5px;
+  padding-left  : 392px;
+  display       : flex;
+  flex-direction: row;
+  max-width     : 223px;
+  font-family   : "Roboto", sans-serif;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 15px;
+  line-height   : 19px;
+
+
+  letter-spacing: 0.6px;
+}
+
+.certif_3 {
+  padding-top   : 5px;
+  padding-left  : 294px;
+  display       : flex;
+  flex-direction: row;
+  max-width     : 223px;
+  font-family   : "Roboto", sans-serif;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 15px;
+  line-height   : 19px;
+
+
+  letter-spacing: 0.6px;
+}
+
+.container_products_cs {
+  background-color: rgba(238, 238, 238, 1);
+  padding-top     : 57px;
+
+}
+
+.container_header_products_cs {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-around;
+}
+
+.header_text_products_cs {
+  font-family: Roboto;
+  font-style : normal;
+  font-weight: normal;
+  font-size  : 32px;
+  line-height: 37px;
+}
+
+.header_button_products_cs {
+  min-width    : 247px;
+  margin-top   : 15px;
+  max-height   : 44px;
+  color        : white;
+  background   : #3D5675;
+  border-radius: 44px;
+  border       : 0;
+  font-family  : Roboto;
+  font-style   : normal;
+  font-weight  : bold;
+  font-size    : 14px;
+  line-height  : 18px;
+  margin-left  : 80px;
+}
+
+.container_cards {
+  margin     : 158px 128px;
+  min-width  : 1300px;
+  display    : flex;
+  justify-content: center;
+  margin-left: 260px;
+  flex-wrap: wrap;
+}
+
+.card_1 , .card_2 , .card_3 , .card_4 , .card_5 , .card_6{
+  min-width : 400px;
+  min-height: 432px;
+}
+
+
+.header_text_cards {
+  max-width     : 191px;
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 18px;
+  line-height   : 21px;
+  letter-spacing: 0.36px;
+  color         : #011F3A;
+}
+
+.text_cards {
+  max-width  : 209px;
+  font-family: Roboto;
+  font-style : normal;
+  font-weight: normal;
+  font-size  : 15px;
+  line-height: 24px;
+  
+
+
+  color: #777777;
+}
+
+
+
+.footer{
+  display: flex;
+  min-height: 365px;
+  justify-content: center;
+
+}
+
+.img_footer {
+  max-width: 85px;
+  max-height: 24px;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+
+.header_footer{
+  margin-top: 57px;
+  margin-left: 350px;
+  max-width: 350px;
+  font-family  : Roboto;
+  font-style   : normal;
+  font-weight  : bold;
+  font-size    : 14px;
+  line-height  : 18px;
 }
